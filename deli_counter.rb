@@ -4,11 +4,10 @@ def line(line_arr)
     return puts "The line is currently empty."
   end
   
-  line_str = 'The line currently is:'
+  line_str = 'The line is currently:'
   line_arr.each_with_index do |person, idx|
     line_str += " #{idx+=1}. #{person}"    
   end 
   
   puts line_str
-  line_str 
 end

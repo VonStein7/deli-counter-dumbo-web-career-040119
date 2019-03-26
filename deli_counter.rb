@@ -9,5 +9,6 @@ def line(line_arr)
     line_str += " #{idx}. #{person}"    
   end 
   
+  puts line_str
   line_str 
 end

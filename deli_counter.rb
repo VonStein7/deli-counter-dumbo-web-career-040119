@@ -11,3 +11,9 @@ def line(line_arr)
   
   puts line_str
 end
+
+def take_a_number(line_arr, person)
+  line_arr << person
+  
+  puts "You are blank"
+end

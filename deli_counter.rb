@@ -18,3 +18,16 @@ def take_a_number(line_arr, person)
   puts "Welcome, #{person}. You are number #{line_arr.length} in line."
 end
 
+def now_serving(line_arr)
+  if line_arr.length == 0 
+    return puts "There is nobody waiting to be served!"
+  end
+  
+  return puts "Now serving, #{line_arr.pop}"
+end
+
+
+
+
+
+

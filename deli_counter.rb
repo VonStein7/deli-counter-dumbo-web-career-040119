@@ -23,7 +23,7 @@ def now_serving(line_arr)
     return puts "There is nobody waiting to be served!"
   end
   
-  return puts "Now serving, #{line_arr.pop}"
+  return puts "Currently serving, #{line_arr.shift}"
 end
 
 

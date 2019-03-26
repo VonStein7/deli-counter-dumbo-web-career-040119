@@ -6,7 +6,7 @@ def line(line_arr)
   
   line_str = 'The line currently is:'
   line_arr.each_with_index do |person, idx|
-    line_str += " #{idx}. #{person}"    
+    line_str += " #{idx++}. #{person}"    
   end 
   
   puts line_str

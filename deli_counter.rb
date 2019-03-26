@@ -15,5 +15,5 @@ end
 def take_a_number(line_arr, person)
   line_arr << person
   
-  puts "You are blank"
+  puts "Welcome, #{person}. You are number #{arr.length} in line."
 end
